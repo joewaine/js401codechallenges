@@ -1,0 +1,14 @@
+{
+  "name": "js401codechallenge-day02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.1"
+  }
+}
