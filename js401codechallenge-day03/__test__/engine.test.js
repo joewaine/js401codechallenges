@@ -43,7 +43,7 @@ describe('engine module', function() {
     it('return intended answer', function() {
       expect(engine.passengerCount(train)).toEqual(5);
     });
-    it('test if value is a string', function() {
+    it('test if value is a number', function() {
       expect(engine.passengerCount(trainwithstrings)).toEqual(null);
     });
 
