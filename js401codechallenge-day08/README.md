@@ -23,6 +23,5 @@ fn(headSLL1, headSLL2){
 
   after creating the array of values, remove the duplicates.
 
-
   return a new linked list from the array
 }
