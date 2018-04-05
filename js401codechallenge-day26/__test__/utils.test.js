@@ -4,6 +4,8 @@ require('jest')
 let emptArry = []
 let emptTotal = 0;
 
+console.log(utils)
+
 
 function map(arr, callback) {
     callback(arr)
@@ -59,15 +61,15 @@ describe('', function () {
   describe('correct answer', () => { //test node construcor
 
     it('validate map', () => {
-      expect(map([1,2,3], doubleIndexes)).toBe([2,4,6])
+      expect(utils.map([1,2,3], utils.doubleIndexes)).toEqual([2,4,6])
     })
 
     it('validate filter', () => {
-      expect(filter([1,2,3], getOdds)).toBe([1,3])
+      expect(utils.filter([1,2,3], utils.getOdds)).toEqual([1,3])
     })
 
     it('validate reduce', () => {
-      expect(reduce([1,2,3], addEverythingTogether, 1)).toBe(5)
+      expect(utils.reduce([1,2,3], utils.addEverythingTogether, 1)).toEqual(5)
    })
 
   })

@@ -1,0 +1,17 @@
+{
+  "name": "js401codechallenge-day33",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.0.0-alpha.0"
+  }
+}
